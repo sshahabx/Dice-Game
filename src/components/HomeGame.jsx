@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const HomeGame = () => {
+export const HomeGame = ({toggle}) => {
   return (
     <Container>
        <div>
@@ -9,7 +9,9 @@ export const HomeGame = () => {
 
         <div className="content">
             <h1>DARE TO PLAY THIS GAME?</h1>
-            <Button>Play Now</Button>
+            <Button
+                onClick={toggle}
+            >Play Now</Button>
         </div>
     </Container>
   )
@@ -39,6 +41,8 @@ const Button = styled.button`
     border-radius: 5px;
     color: white;
 
+
+    cursor: pointer;
     min-width: 220px;
     font-size: 16px;
     border: none;
