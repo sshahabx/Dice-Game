@@ -1,16 +1,13 @@
 import styled from "styled-components"
-
-
-const Button=styled.button``;
+import { HomeGame } from "./components/HomeGame"
+import './App.css'
 
 
 function App() {
 
   return (
     <>
-      <Button>
-        Click Me!
-      </Button>
+      <HomeGame />
     </>
   )
 }
