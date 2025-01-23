@@ -11,16 +11,18 @@ export const Score = () => {
 }
 
 const ScoreContainer = styled.div`
-max-width: 200px;
+max-width: 100px;
 text-align: center;
+
     
     h1{
-       font-size : 100px;
-       line-height: 100px;
+       font-size : 50px;
+       line-height: 10px;
+       margin-bottom: 0;
     }
 
     p{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 500;
     }
 
